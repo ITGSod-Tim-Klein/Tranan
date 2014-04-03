@@ -147,3 +147,12 @@ div#cancel:hover {
 div#content {
     width: 100%;
 }
+
+div#page-content {
+    width: 78%;
+    margin-top: 51px;
+    margin-left: 269px;
+    height: 500px;
+
+    background: white;
+}
