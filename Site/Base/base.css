@@ -54,7 +54,7 @@ div#menu-bar {
 
     position: fixed;
 
-    height: 40px;
+    height: 30px;
     min-width: 100em;
 
     margin-top: 31px;
@@ -69,7 +69,7 @@ div#menu-bar {
 
     font-weight: bold;
     font-family: arial;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 
@@ -152,7 +152,7 @@ div#cancel:hover {
 
 div#content {
     width: 100%;
-    padding-top: 102px;
+    padding-top: 81px;
 
 }
 
@@ -164,3 +164,29 @@ div#page-content {
 
     border-radius: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
