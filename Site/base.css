@@ -98,7 +98,7 @@ div#purchase {
     margin-bottom: auto;
     margin-right: auto;
 
-    background-color: yellow;
+    background: linear-gradient(yellow, gold);
 
     height: 2em;
     width: 9em;
@@ -108,9 +108,15 @@ div#purchase {
     border-radius: 15px;
 }
 
+.cash-button {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
 
 div#purchase:hover {
-    background-color: lightskyblue;
+    background: linear-gradient(gold, yellow);
     transition-duration: 0.5s;
 }
 
@@ -126,10 +132,10 @@ div#purchase a {
 div#cancel {
     margin: 10px auto auto auto;
 
-    background-color: orangered;
+    background: linear-gradient(red, darkred);
 
     width: 6em;
-    height: 1.5em;
+    height: 1.35em;
 
     text-align: center;
 
@@ -146,7 +152,7 @@ div#cancel a {
 }
 
 div#cancel:hover {
-    background-color: graytext;
+    background: linear-gradient(darkred, red);
     transition-duration: 0.5s;
 }
 
