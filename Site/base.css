@@ -5,16 +5,16 @@ html {
 
 body {
     background: linear-gradient(#3a92c8, aliceblue);
-    background-attachment: fixed;
 
     width: 100%;
 
     margin-left: 0;
     margin-top: 0;
-
+    z-index: 0;
 }
 
 div#logo-bar {
+
     position: fixed;
     top: 0;
 
@@ -160,33 +160,6 @@ div#page-content {
     width: 78%;
     margin-left: 15.8em;
     height: 500px;
-    background: white;
-
     border-radius: 10px;
+    background-color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
