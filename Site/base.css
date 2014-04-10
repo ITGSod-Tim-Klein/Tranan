@@ -5,6 +5,7 @@ html {
 
 body {
     background: linear-gradient(#3a92c8, aliceblue);
+    background-attachment: fixed;
 
     width: 100%;
 
@@ -93,14 +94,14 @@ div#menu-bar {
     background-color: black;
 
     min-width: 14em;
-    height: 562px;
+    height: 100%;
 
     position: fixed;
 }
 
 div#purchase {
     padding-top: 6px;
-    margin-top: 190%;
+    margin-top: 205%;
     margin-left: auto;
     margin-bottom: auto;
     margin-right: auto;
@@ -166,13 +167,22 @@ div#cancel:hover {
 div#content {
     width: 100%;
     padding-top: 81px;
+}
 
+div#content p, h1, h2 {
+    margin-left: 45px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: arial, sans-serif;
+    color: black;
+
+    max-width: 90%;
 }
 
 div#page-content {
     width: 78%;
     margin-left: 15.8em;
-    height: 500px;
+    height: 100%;
     border-radius: 10px;
     background-color: white;
 }
