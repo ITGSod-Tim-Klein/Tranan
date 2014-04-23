@@ -24,7 +24,7 @@ div#logo-bar {
 
     background-color: black;
 
-    height: 30px;
+    height: 50px;
     width: 100%;
 }
 
@@ -32,7 +32,7 @@ div#search-bar {
     width: 190px;
     height: 23px;
 
-    padding-top: 3px;
+    padding-top: 12px;
     margin-left: 83%;
 }
 
@@ -65,7 +65,7 @@ div#menu-bar {
     height: 30px;
     min-width: 100em;
 
-    margin-top: 31px;
+    margin-top: 50px;
 }
 
 .menu-button {
@@ -87,7 +87,7 @@ div#menu-bar {
 }
 
 #cash-bar {
-    margin-top: 1.96em;
+    margin-top: 3.1em;
 
     border: solid gray 1px;
 
@@ -166,7 +166,7 @@ div#cancel:hover {
 
 div#content {
     width: 100%;
-    padding-top: 81px;
+    padding-top: 95px;
 }
 
 div#content p, h1, h2 {
