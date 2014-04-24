@@ -26,6 +26,8 @@ div#logo-bar {
 
     height: 50px;
     width: 100%;
+
+    z-index: 10;
 }
 
 div#search-bar {
@@ -34,6 +36,9 @@ div#search-bar {
 
     padding-top: 12px;
     margin-left: 83%;
+
+
+    z-index: 10;
 }
 
 
@@ -66,6 +71,8 @@ div#menu-bar {
     min-width: 100em;
 
     margin-top: 50px;
+
+    z-index: 10;
 }
 
 .menu-button {

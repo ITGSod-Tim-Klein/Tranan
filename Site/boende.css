@@ -16,7 +16,9 @@ div#page-content img {
 }
 
 .room-text h1,h2 {
+    margin-top: 0;
     margin-left: 0;
+    margin-bottom: 2px;
 }
 
 
@@ -34,4 +36,79 @@ div#page-number {
     margin-left: 90%;
     margin-top: 5px;
 }
+
+
+.star {
+    z-index: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid black;
+}
+
+.star:after {
+    z-index: 0;
+content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin: 10px 0 0 -20px;
+    border-top: 30px solid black;
+}
+
+.star2 {
+    margin-left: 40em;
+}
+
+.star3 {
+    margin-left: 37.2em;
+}
+
+.star4 {
+    margin-left: 34.2em;
+}
+
+.star5 {
+    margin-left: 31.2em;
+}
+
+.star1 {
+    margin-left: 28.2em;
+}
+
+.staryellow {
+    border-bottom: 30px solid yellow;
+}
+
+.staryellow:after {
+    border-top: 30px solid yellow;
+}
+
+.info {
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
