@@ -1,34 +1,52 @@
 div#page-content img {
     margin-top: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-left: 45px;
 
     border: solid lightskyblue 2px;
     border-radius: 10px;
+    position: relative;
 }
 
 .room {
     border-bottom: solid lightblue 1px;
+    clear: both;
+    height: 250px;
 }
 
 .room-text {
+    padding-top: 33px;
+    padding-left: 220px;
+}
+
+#starholder {
+    padding-left: 100px;
+}
+
+.starholder {
+    margin-top: 10px;
+    margin-left: -40px;
+    position: absolute;
+}
+
+.more-info {
+    margin-top: 10px;
+    margin-right: 820px;
     float: right;
 }
 
-.room-text h1,h2 {
+
+
+.room-text h1, h2 {
+    padding-top: 0;
     margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 2px;
 }
 
-
-.price {
-    padding-top: 0.75em;
-    padding-right: 19.5em;
+.room img {
+    float: left;
 }
 
 div#page-content a {
-    min-width: 100em;
     margin-left: 5px;
 }
 
@@ -88,10 +106,10 @@ content:"";
     border-top: 30px solid yellow;
 }
 
-.info {
-    font-size: 20px;
-    margin-top: 60px;
-}
+/*.info {*/
+    /*font-size: 20px;*/
+    /*margin-top: 8%;*/
+/*}*/
 
 
 
