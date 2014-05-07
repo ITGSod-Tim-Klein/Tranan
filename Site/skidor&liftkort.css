@@ -1,0 +1,16 @@
+#page-content th, td, table {
+    border: 1px solid black;
+}
+
+#page-content table, h1, h4 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#page-content h1, h4 {
+    text-align: center;
+}
+
+#page-content table {
+    background-color: #f3f3f3;
+}
