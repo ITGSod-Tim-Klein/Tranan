@@ -107,6 +107,13 @@ content:"";
     border-top: 30px solid yellow;
 }
 
+.starblack {
+    border-bottom: 30px solid black;
+}
+
+.starblack:after {
+    border-top: 30px solid black;
+}
 
 
 
