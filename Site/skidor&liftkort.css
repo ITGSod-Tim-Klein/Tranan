@@ -14,3 +14,8 @@
 #page-content table {
     background-color: #f3f3f3;
 }
+
+#page-content th, td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
