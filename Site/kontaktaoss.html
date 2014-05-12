@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./base.css">
-    <script src="./Base/base.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="js/jq.js"></script>
+    <script src="js/kontaktaoss.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="kontaktaoss.css">
     <title>Tranan</title>
 </head>
 
@@ -44,17 +45,63 @@
 <div id="content">
     <div id="page-content">
         <form>
-            <p>Select City</p>
-            <select id="myList" onchange="favBrowser()">
-                <option></option>
-                <option>Google Chrome</option>
-                <option>Firefox</option>
-                <option>Internet Explorer</option>
-                <option>Safari</option>
-                <option>Opera</option>
-            </select>
-            <p>Your favorite browser is: <input type="text" id="favorite" size="20"></p>
+
+            <table>
+                <tr>
+                    <th>Välj Stad:</th>
+                    <td>
+                        <select id="city">
+                            <option value="nil"></option>
+                            <option value="sthlm">Stockholm</option>
+                            <option value="gbg">Göteborg</option>
+                            <option value="kiruna">Kiruna</option>
+                            <option value="uppsala">Uppsala</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Kundtjänst:</td>
+                    <td align="left" id="text1"></td>
+                </tr>
+                <tr>
+                    <td align="right">Avbokning:</td>
+                    <td align="left" id="text2"></td>
+                </tr>
+                <tr>
+                    <td align="right">Frågor:</td>
+                    <td align="left" id="text3"></td>
+                </tr>
+            </table>
         </form>
+        <script type="text/javascript">
+            $('select').on('change', function() {
+                if (this.value == "nil") {
+                    $('#text1').text('');
+                    $('#text2').text('');
+                    $('#text3').text('');
+                }
+                else if (this.value == "sthlm") {
+                    $('#text1').text('556 517 39');
+                    $('#text2').text('556 518 91');
+                    $('#text3').text('070 331 59 56');
+                }
+                else if (this.value == "gbg") {
+                    $('#text1').text('556 517 24');
+                    $('#text2').text('556 518 11');
+                    $('#text3').text('070 331 32 56');
+                }
+                else if (this.value == "kiruna") {
+                    $('#text1').text('556 517 54');
+                    $('#text2').text('556 518 43');
+                    $('#text3').text('070 331 50 43');
+                }
+                else if (this.value == "uppsala") {
+                    $('#text1').text('556 517 49');
+                    $('#text2').text('556 518 65');
+                    $('#text3').text('070 331 54 57');
+                }
+            });
+        </script>
     </div>
 </div>
 </body>
