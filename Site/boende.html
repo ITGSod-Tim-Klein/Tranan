@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./base.css">
     <script src="./Base/base.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jq.js"></script>
+    <script src="js/book.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="boende.css">
     <title>Tranan</title>
 </head>
@@ -24,6 +26,10 @@
 
 
 <div id="cash-bar">
+    <h1 id="purchases1"></h1>
+    <h1 id="purchases2"></h1>
+    <h1 id="purchases3"></h1>
+    <h1 id="purchases4"></h1>
     <div id="purchase">
         <a href="index.html" class="cash-button">Purchase</a>
     </div>
@@ -56,7 +62,7 @@
                     <div class="star star5 staryellow"></div>
                 </div>
             </div>
-            <a href="" class="more-info">Book now!</a>
+            <a class="more-info" onclick="bookval(1)">Book now!</a>
         </div>
 
         <div id="room2" class="room">
@@ -72,7 +78,7 @@
                     <div class="star star5 staryellow"></div>
                 </div>
             </div>
-            <a href="" class="more-info">Book now!</a>
+            <a class="more-info" onclick="bookval(2)">Book now!</a>
         </div>
 
         <div id="room3" class="room">
@@ -88,7 +94,7 @@
                     <div class="star star5 staryellow"></div>
                 </div>
             </div>
-            <a href="" class="more-info">Book now!</a>
+            <a class="more-info" onclick="bookval(3)">Book now!</a>
         </div>
         <div id="room4" class="room">
             <img src="Images/hotellrum.png">
@@ -97,13 +103,13 @@
                 <h2 class="distance">1000m från backen</h2>
                 <h2 class="beds">5 sängar</h2>
                 <div id="starholder" class="starholder">
-                    <div class="star star2 starblack"></div>
+                    <div class="star star2 staryellow"></div>
                     <div class="star star3 staryellow"></div>
                     <div class="star star4 staryellow"></div>
                     <div class="star star5 staryellow"></div>
                 </div>
             </div>
-            <a href="" class="more-info">Book now!</a>
+            <a class="more-info" onclick="bookval(4)">Book now!</a>
         </div>
 
         <div id="page-number">
