@@ -3,6 +3,17 @@
     float: left;
 }
 
+#page-content img {
+    margin-left: 20%;
+    position: relative;
+}
+
 .form-text {
     font-size: 16.5px;
 }
+
+#page-content table {
+    font-size: 20px;
+}
+
+
