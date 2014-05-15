@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./base.css">
     <script type="text/javascript" src="js/jq.js"></script>
+    <script src="./js/base.js" type="text/javascript"></script>
     <script src="js/kontaktaoss.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="kontaktaoss.css">
     <title>Tranan</title>
@@ -41,8 +42,8 @@
     </div>
     <div id="search-bar">
         <form class="form-wrapper cf">
-            <input class="search-form" type="text" placeholder="Search here..." required>
-            <a href="index.html"><img src="Images/search.png"></a>
+            <input onkeypress="enters(event)" id="search-form" class="search-form" type="text" placeholder="Search here..." required>
+            <a onclick="auto_search()"><img src="Images/search.png"></a>
         </form>
     </div>
 
