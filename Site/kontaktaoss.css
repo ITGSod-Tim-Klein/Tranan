@@ -1,11 +1,16 @@
 #page-content {
-    padding: 20px;
     float: left;
+
+}
+
+#page-content form {
+    padding: 20px;
 }
 
 #page-content img {
     margin-left: 20%;
     position: relative;
+    padding-bottom: 50px;
 }
 
 .form-text {
