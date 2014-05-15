@@ -40,6 +40,11 @@ div#logo-bar {
     border: solid gray 1px;
 }
 
+.logo:hover {
+    opacity: 0.4;
+    transition-duration: 0.5s;
+}
+
 div#search-bar {
     width: 190px;
     height: 23px;
