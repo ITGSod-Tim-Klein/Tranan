@@ -9,20 +9,20 @@ var text4 = 'Four Star Hotel'
 
 function bookval(value) {
     if (value == 1) {
-        book(text1, 1)
+        book(text1, 1, 1999)
     }
     else if (value == 2) {
-        book(text2, 2)
+        book(text2, 2, 1399)
     }
     else if (value == 3) {
-        book(text3, 3)
+        book(text3, 3, 2199)
     }
     else if (value == 4) {
-        book(text4, 4)
+        book(text4, 4, 4299)
     }
 }
 
-function book(text, number) {
+function book(text, number, price) {
 
     var recent = document.getElementById("purchases"+number).innerHTML
     if (document.getElementById("purchases"+number).innerHTML == "") {
