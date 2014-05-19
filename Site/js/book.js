@@ -1,3 +1,4 @@
+// All global variables used to access different headings
 var call_times1 = 1
 var call_times2 = 1
 var call_times3 = 1
@@ -7,6 +8,8 @@ var text2 = 'Two Star Hotel'
 var text3 = 'One Star Hotel'
 var text4 = 'Four Star Hotel'
 
+
+// Checks what room you've booked
 function bookval(value) {
     if (value == 1) {
         book(text1, 1, 1999)
@@ -22,24 +25,24 @@ function bookval(value) {
     }
 }
 
+//  Text and how many rooms you've booked
 function book(text, number, price) {
 
+    // Check if and what the text in the heading is
     var recent = document.getElementById("purchases"+number).innerHTML
+    // Check if the heading is empty (includes no text)
     if (document.getElementById("purchases"+number).innerHTML == "") {
         document.getElementById("purchases"+number).innerHTML= text + "(" + call_times(number) + ")"
     }
 
+    // Compare recent text and check if statement is true
     else if (recent == (text + "(" + call_times(number) + ")") || recent == text) {
         add_call_times(number);
         document.getElementById("purchases"+number).innerHTML= text + "(" + call_times(number) + ")";
     }
-
-    else {
-        var h1 = document.createElement("h1");
-        h1.innerHTML = "Hello"
-    }
 }
 
+// Return the variable which contains the counter for how many times the specific room has been booked
 function call_times(number) {
     if (number == 1) {
         return call_times1
@@ -55,6 +58,7 @@ function call_times(number) {
     }
 }
 
+// Return the book counter added with one
 function add_call_times(number) {
     if (number == 1) {
        call_times1 += 1
@@ -70,6 +74,7 @@ function add_call_times(number) {
     }
 }
 
+// Reset all the headings and counters
 function reset_order() {
     document.getElementById("purchases1").innerHTML = ""
     document.getElementById("purchases2").innerHTML = ""
@@ -81,15 +86,19 @@ function reset_order() {
     call_times4 = 1
 }
 
+// Reset the headings and counters as well as confirm the booking
 function order_successful() {
     var purchase1 = document.getElementById("purchases1").innerHTML
     var purchase2 = document.getElementById("purchases2").innerHTML
     var purchase3 = document.getElementById("purchases3").innerHTML
     var purchase4 = document.getElementById("purchases4").innerHTML
 
+    // Check if you have booked something at all
     if (purchase1 == "" && purchase2 == "" && purchase3 == "" && purchase4 == "") {
         alert("Please book something before purchase")
     }
+
+    // If you have booked at least one room, confirm that the booking is successful
     else {
         reset_order()
         alert("Booking successful")
