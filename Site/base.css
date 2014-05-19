@@ -4,6 +4,8 @@ html {
 }
 
 body {
+
+    /* Linear-gradient for the background */
     background: linear-gradient(#3a92c8, aliceblue);
     background: -webkit-linear-gradient(#3a92c8, aliceblue); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#3a92c8, aliceblue); /* For Opera 11.1 to 12.0 */
@@ -40,6 +42,7 @@ div#logo-bar {
     border: solid gray 1px;
 }
 
+/* Make a hover effect over the logo */
 .logo:hover {
     opacity: 0.4;
     transition-duration: 0.5s;
@@ -161,7 +164,7 @@ div#purchase {
     width: 100%;
 }
 
-
+/* Make the purchase button look more '3D' by inverting the linear-gradient colors when hovering */
 div#purchase:hover {
     background: linear-gradient(gold, yellow);
     background: -webkit-linear-gradient(gold, yellow); /* For Safari 5.1 to 6.0 */
@@ -204,6 +207,7 @@ div#cancel a {
     font-weight: bold;
 }
 
+/* Make the purchase button look more '3D' by inverting the linear-gradient colors when hovering */
 div#cancel:hover {
     background: linear-gradient(darkred, red);
     background: -webkit-linear-gradient(darkred, red); /* For Safari 5.1 to 6.0 */
