@@ -26,6 +26,7 @@ div#page-content img {
 }
 
 
+/* Make the 'Book now!' text to look like a button */
 .more-info {
     color: royalblue;
     font-weight: bold;
@@ -47,9 +48,8 @@ div#page-content img {
     float: left;
 }
 
+/* Make a transparent gray color when hovering on images */
 img:hover {
-    background-color: yellow;
-    color: yellow;
     opacity: 0.4;
     transition-duration: 0.5s;
 }
@@ -63,7 +63,7 @@ div#page-number {
     margin-top: 5px;
 }
 
-
+/* Create the shape of the star */
 .star {
     z-index: 0;
     position: absolute;
@@ -102,6 +102,7 @@ content:"";
     margin-left: 3em;
 }
 
+/* If classname is 'staryellow', change the color of the shape to yellow */
 .staryellow {
     border-bottom: 30px solid yellow;
 }
@@ -110,6 +111,7 @@ content:"";
     border-top: 30px solid yellow;
 }
 
+/* If classname is 'starblack', change the color of the shape to black */
 .starblack {
     border-bottom: 30px solid black;
 }
