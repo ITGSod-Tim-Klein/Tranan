@@ -127,6 +127,39 @@ div#menu-bar {
 
     position: fixed;
     z-index: 10;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#button_holder {
+    margin-top: 180%;
+}
+
+#purchase_button {
+    height: 2.5em;
+    width: 11em;
+
+    margin-left: 28px;
+
+    background: url(./Images/Book_Button.png) 10px 0px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+#cancel_button {
+    width: 9em;
+    height: 1.35em;
+
+    margin-left: 40px;
+
+    background: url(./Images/Book_Button.png) 0px -48px;
+    background-repeat: no-repeat;
+
 }
 
 #cash-bar h1 {
